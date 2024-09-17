@@ -31,15 +31,15 @@ class MainActivity : AppCompatActivity() {
             setSurfaceView(requireNotNull(binding.surface))
 
             //directory and model each as param
-//            loadGlb(this@MainActivity, "grogu", "grogu")
-            loadGltf(this@MainActivity, "misc", "adamHead");
+            loadGlb(this@MainActivity, "grogu", "grogu")
+//            loadGltf(this@MainActivity, "misc", "adamHead");
 
             //directory and model as one
-            //loadGlb(this@MainActivity, "grogu/grogu");
+//            loadGlb(this@MainActivity, "grogu/grogu");
 
             //Enviroments and Lightning (OPTIONAL)
             loadIndirectLight(this@MainActivity, "venetian_crossroads_2k")
-            //loadEnviroment(this@MainActivity, "venetian_crossroads_2k");
+            loadEnvironment(this@MainActivity, "venetian_crossroads_2k");
         }
     }
 

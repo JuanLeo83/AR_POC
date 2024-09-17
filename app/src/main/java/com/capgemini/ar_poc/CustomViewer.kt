@@ -82,7 +82,7 @@ class CustomViewer {
         }
     }
 
-    fun loadEnviroment(context: Context, ibl: String) {
+    fun loadEnvironment(context: Context, ibl: String) {
         // Create the sky box and add it to the scene.
         val buffer = readAsset(context, "environments/venetian_crossroads_2k/${ibl}_skybox.ktx")
         KTX1Loader.createSkybox(modelViewer.engine, buffer).apply {
